@@ -1,0 +1,38 @@
+.nav{
+    background-color: grey;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+}
+
+.nav-links{
+  display: inline-flex;
+  width: 40%;
+  justify-content: space-between;
+    margin-right: 10px;
+}
+
+.nav-links li, a {
+    display: block;
+   color: white;
+   text-decoration: none; 
+   font-size: 20px;
+   
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    box-shadow: black 3px 3px;
+    font-size: 20px;
+
+}
+
+
+
